@@ -5,11 +5,11 @@ metadata:
   labels:
     app: sp
 spec:
-  replicas: 99  # Adjust the number of replicas as per your requirements
+  replicas: 0  # Adjust the number of replicas as per your requirements
   selector:
     matchLabels:
       app: sp
-  replicas: 99
+  replicas: 0
   template:
     metadata:
       labels:
